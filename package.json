@@ -1,0 +1,19 @@
+{
+  "name": "world-clock-app",
+  "version": "1.0.0",
+  "description": "A real-time world clock app showing time in Houston, Barcelona, and London",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["world-clock", "timezone", "real-time"],
+  "author": "",
+  "license": "MIT"
+}

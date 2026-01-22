@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Cities (Personal World Clock)</h1>
+        </header>
+        
+        <div class="clocks-grid">
+            <div class="clock-card">
+                <div class="flag">🇺🇸</div>
+                <div class="clock-container">
+                    <div class="clock" id="houston-clock">
+                        <div class="hour-hand" id="houston-hour"></div>
+                        <div class="minute-hand" id="houston-minute"></div>
+                        <div class="second-hand" id="houston-second"></div>
+                        <div class="center-dot"></div>
+                    </div>
+                </div>
+                <div class="city-name">Houston</div>
+                <div class="time-display" id="houston-time">Thu 08:01:43</div>
+            </div>
+
+            <div class="clock-card">
+                <div class="flag">🇪🇸</div>
+                <div class="clock-container">
+                    <div class="clock" id="barcelona-clock">
+                        <div class="hour-hand" id="barcelona-hour"></div>
+                        <div class="minute-hand" id="barcelona-minute"></div>
+                        <div class="second-hand" id="barcelona-second"></div>
+                        <div class="center-dot"></div>
+                    </div>
+                </div>
+                <div class="city-name">Barcelona</div>
+                <div class="time-display" id="barcelona-time">Thu 14:01:43</div>
+            </div>
+
+            <div class="clock-card">
+                <div class="flag">🇬🇧</div>
+                <div class="clock-container">
+                    <div class="clock" id="london-clock">
+                        <div class="hour-hand" id="london-hour"></div>
+                        <div class="minute-hand" id="london-minute"></div>
+                        <div class="second-hand" id="london-second"></div>
+                        <div class="center-dot"></div>
+                    </div>
+                </div>
+                <div class="city-name">London</div>
+                <div class="time-display" id="london-time">Thu 13:01:43</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
