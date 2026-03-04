@@ -111,9 +111,16 @@ class WorldClock {
             londonWindow = 'Outside work window';
         }
         
-        this.cities.houston.workWindow.textContent = houstonWindow;
-        this.cities.london.workWindow.textContent = londonWindow;
-        this.cities.barcelona.workWindow.textContent = 'Work window: 2pm–midnight';
+        // Work-window elements are optional in the markup.
+        if (this.cities.houston.workWindow) {
+            this.cities.houston.workWindow.textContent = houstonWindow;
+        }
+        if (this.cities.london.workWindow) {
+            this.cities.london.workWindow.textContent = londonWindow;
+        }
+        if (this.cities.barcelona.workWindow) {
+            this.cities.barcelona.workWindow.textContent = 'Work window: 2pm-midnight';
+        }
     }
 }
 
